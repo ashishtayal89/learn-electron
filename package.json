@@ -1,0 +1,24 @@
+{
+  "name": "learn-electron",
+  "version": "1.0.0",
+  "description": "- Bundles **Chromium content module** for UI - Bundles **Node** - Output is native binary file. - Electron allows you to create application that run on mac, windows and linux platform.",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashishtayal89/learn-electron.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashishtayal89/learn-electron/issues"
+  },
+  "homepage": "https://github.com/ashishtayal89/learn-electron#readme",
+  "devDependencies": {
+    "electron": "^11.2.1"
+  }
+}
