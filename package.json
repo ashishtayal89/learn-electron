@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
+    "build": "rimraf learnelectron-* && electron-packager . --platform=darwin,win32,linux --arch=x64",
     "inst:electron": "npx cross-env ELECTRON_GET_USE_PROXY=true npm install -D electron@latest"
   },
   "repository": {
@@ -20,6 +21,8 @@
   },
   "homepage": "https://github.com/ashishtayal89/learn-electron#readme",
   "devDependencies": {
-    "electron": "^11.2.1"
+    "electron": "^11.2.1",
+    "electron-packager": "^15.2.0",
+    "rimraf": "^3.0.2"
   }
 }
