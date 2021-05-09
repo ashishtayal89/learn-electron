@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
-    "build": "rimraf learnelectron-* && electron-packager . --platform=darwin,win32,linux --arch=x64",
+    "build": "rimraf learnelectron-* && electron-packager . --platform=darwin,win32,linux --arch=x64 --icon=trayIcon",
     "inst:electron": "npx cross-env ELECTRON_GET_USE_PROXY=true npm install -D electron@latest"
   },
   "repository": {
